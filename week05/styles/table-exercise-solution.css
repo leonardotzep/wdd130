@@ -6,15 +6,13 @@ table {
     letter-spacing: 1px;
 }
 
-th,
-td {
+th td {
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
     text-align: center;
 }
 
-thead th,
-tfoot tr {
+thead th tfoot tr {
     background-color: #000;
     color: #fff;
     font-weight: 700;
