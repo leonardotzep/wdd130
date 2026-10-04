@@ -193,3 +193,52 @@ footer {
     font-weight: bold;
     color: var(--secondary-color);
 }
+
+main h1 {
+    padding: 12px;
+}
+
+main h2 {
+    text-align: center;
+    padding: 8px;
+}
+
+main p {
+    text-align: center;
+    margin-bottom: 12px;
+    line-height: 0;
+}
+
+.map iframe {
+    width: 350px;
+    height: 400px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+}
+
+.employees img {
+    width: 125px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid var(--accent1-color);
+}
+
+.employees h2 {
+    grid-column: 1/-1;
+    margin-bottom: 20px;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px;
+    border-color: 8px;
+    text-align: center;
+}
+
+.employees figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
