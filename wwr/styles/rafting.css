@@ -286,6 +286,9 @@ form {
 
 .purpose-title {
     font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    color: #264653;
 }
 
 /*MESSAGE TEXTAREA SECTION*/
