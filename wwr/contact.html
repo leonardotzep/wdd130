@@ -26,52 +26,71 @@
 
 
     <main>
-
-        <h1>Contact Us - Rafting Xtreme</h1>
-        <h2>Send Us a Message</h2>
-        <p>Addres: 123 Main River Street, New York, New York, 12345</p>
-        <p>Phone number : +502 22334455</p>
-        <p>Email: info@none.com</p>
-
-        <div class="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15430.370758008152!2d-91.2698596715927!3d14.791957587463003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858eb3834c020a21%3A0x2b293c9b0fb4b41e!2sReserva%20Natural%20Coraz%C3%B3n%20del%20Bosque%2C%20El%20Novillero!5e0!3m2!1ses-419!2sgt!4v1791035963826!5m2!1ses-419!2sgt"
-              width="600" height="450" allowfullscreen="" loading="lazy"
-              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <div class="contact-info">
+            <h1>Contact Us - Rafting Xtreme</h1>
+            <p>Address: 123 Main River Street, New York, New York, 12345</p>
+            <p>Phone number : +502 22334455</p>
+            <p>Email: info@none.com</p>
         </div>
 
 
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+        <section class="contact-section">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15430.370758008152!2d-91.2698596715927!3d14.791957587463003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x858eb3834c020a21%3A0x2b293c9b0fb4b41e!2sReserva%20Natural%20Coraz%C3%B3n%20del%20Bosque%2C%20El%20Novillero!5e0!3m2!1ses-419!2sgt!4v1791035963826!5m2!1ses-419!2sgt"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
 
-            <p>Message Purpose</p>
-            <label>
-                <input type="radio" name="purpose" id="general" value="general">
-                General Inquiry
-            </label><br>
+            <form action="#">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Type your name" required
+                      autocomplete="name">
+                </div>
 
-            <label>
-                <input type="radio" name="purpose" id="reservation" value="reservation">
-                Reservation Question
-            </label><br>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Type your email"
+                      required autocomplete="email">
+                </div>
 
-            <label>
-                <input type="radio" name="purpose" id="Website" value="Website">
-                Website Suggestion
-            </label><br>
 
-            <label for="message">Message</label><br>
-            <textarea name="message" id="message" placeholder="Type here" rows="5"></textarea><br>
+                <div class="message-purpose">
+                    <h4 class="purpose-title">Message Purpose</h4>
+                    <div>
+                        <label class="options">
+                            <input type="radio" name="purpose" id="general" value="general">
+                            General Inquiry
+                        </label><br>
 
-            <input type="checkbox" name="suscribe" id="suscribe">
-            <label for="suscribe">Please Suscribe me to the monthly newsletter</label><br>
+                        <label>
+                            <input type="radio" name="purpose" id="reservation" value="reservation">
+                            Reservation Question
+                        </label><br>
 
-            <button type="submit">Get in Touch!</button>
-        </form>
+                        <label>
+                            <input type="radio" name="purpose" id="Website" value="Website">
+                            Website Suggestion
+                        </label><br>
+                    </div>
+                </div>
+
+
+                <label for="message"><strong>Message</strong></label><br>
+                <textarea name="message" id="message" placeholder="Type here"
+                  rows="4"></textarea><br>
+
+                <div class="suscription">
+                    <input type="checkbox" name="suscribe" id="suscribe">
+                    <label for="suscribe">Please Suscribe me to the monthly newsletter</label><br>
+                </div>
+
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
 
 
         <section class="employees">
