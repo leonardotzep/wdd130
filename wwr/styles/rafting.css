@@ -284,6 +284,10 @@ form {
     flex-direction: column;
 }
 
+.purpose-title {
+    font-size: 16px;
+}
+
 /*MESSAGE TEXTAREA SECTION*/
 
 form textarea {
