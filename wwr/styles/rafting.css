@@ -385,16 +385,61 @@ button:hover {
     border-radius: 4px;
 }
 
+/* CALL TO ACTION SECTION */
+
+.section2 {
+    padding: 5px;
+    border-radius: 6px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: center;
+}
+
+.section2 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.collage-image img {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    height: 100px;
+}
+
+.section2 a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-weight: bold;
+}
+
+.section2 a:hover {
+    transform: scale(1.05);
+}
+
 /* IMAGES WITH PURPOSE ANF OFFERING SECTION */
 
 .offerings {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 15px;
     padding: 16px;
 }
 
 .offerings img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    padding: 10px;
+}
+
+.offerings figcaption {
+    padding: 10px 25px;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 17px;
+    text-align: center;
 }
