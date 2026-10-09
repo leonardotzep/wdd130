@@ -535,4 +535,55 @@ section img {
     border-radius: 8px;
 }
 
-/* TABLES SECTION */
+/* TABLE SECTION */
+
+thead {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    font-family: sans-serif;
+    font-style: inherit;
+}
+
+thead th {
+    padding: 16px 20px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 6px;
+}
+
+thead th:first-child {
+    background-color: #0ce17aa0;
+    padding: 10px 10px;
+    font-style: oblique;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+tbody td {
+    padding: 16px 30px;
+    text-align: center;
+    border-bottom: 1px solid var(--accent1-color);
+    border-bottom: 1px dashed #999;
+}
+
+tbody td:first-child {
+    background-color: #0ce17a78;
+    color: var(--accent1-color);
+    border-radius: 6px;
+}
+
+tbody tr:last-child td {
+    font-style: initial;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+tbody {
+    font-style: oblique;
+}
+
+table caption {
+    font-weight: bold;
+    padding: 16px;
+    font-style: oblique;
+}
