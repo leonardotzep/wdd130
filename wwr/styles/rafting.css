@@ -437,6 +437,7 @@ button:hover {
     color: var(--accent1-color);
     font-weight: bold;
     font-style: oblique;
+    padding: 0.2px;
 }
 
 .offerings img {
