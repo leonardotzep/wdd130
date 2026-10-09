@@ -551,11 +551,11 @@ thead th {
 }
 
 thead th:first-child {
-    background-color: #0ce17aa0;
+    background-color: #0ce17a6c;
     padding: 10px 10px;
     font-style: oblique;
     font-size: 18px;
-    color: #fffffff6;
+    color: #ffffff;
 }
 
 tbody td {
