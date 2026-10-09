@@ -556,12 +556,12 @@ thead th:first-child {
     font-style: oblique;
     font-size: 20px;
     font-family: monospace;
+    color: #fffffff6;
 }
 
 tbody td {
     padding: 16px 30px;
     text-align: center;
-    border-bottom: 1px solid var(--accent1-color);
     border-bottom: 1px dashed #999;
 }
 
@@ -569,6 +569,7 @@ tbody td:first-child {
     background-color: #0ce17a78;
     color: var(--accent1-color);
     border-radius: 6px;
+    color: var(--secondary-color);
 }
 
 tbody tr:last-child td {
